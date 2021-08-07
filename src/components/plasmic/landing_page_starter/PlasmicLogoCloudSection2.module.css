@@ -1,0 +1,79 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 128px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  left: auto;
+  top: auto;
+  max-width: 1920px;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: calc(0px - 128px);
+  width: calc(100% + 128px);
+  margin-top: calc(0px - 64px);
+  height: calc(100% + 64px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 128px;
+  margin-top: 64px;
+}
+.img__nGexs {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  height: 48px;
+}
+.img__nGexs > picture > img {
+  object-fit: cover;
+}
+.img__vTyB8 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  height: 48px;
+}
+.img__vTyB8 > picture > img {
+  object-fit: cover;
+}
+.img___1AK4S {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  height: 48px;
+}
+.img___1AK4S > picture > img {
+  object-fit: cover;
+}
+.img__tXovc {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  height: 48px;
+}
+.img__tXovc > picture > img {
+  object-fit: cover;
+}
+.img__sdqKc {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  height: 48px;
+}
+.img__sdqKc > picture > img {
+  object-fit: cover;
+}
